@@ -1,0 +1,21 @@
+{
+  "name": "blackjack-project",
+  "version": "1.0.0",
+  "author": "\"Kyle Smith\"",
+  "license": "ISC",
+  "main": "./lib/index.js",
+  "bin": {
+    "pizza": "./lib/index.js"
+  },
+  "scripts": {
+    "start": "nodemon --watch 'src/**/*.ts' --exec ts-node src/index.ts",
+    "build": "tsc -p ."
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
